@@ -1,0 +1,4 @@
+lex ccode.l
+yacc ccode.y
+gcc -o programa3 y.tab.c -ll -ly
+./programa3 prueba
